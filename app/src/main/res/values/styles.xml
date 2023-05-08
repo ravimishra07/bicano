@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BricoTextView" parent="android:Widget.Material.TextView">
+       <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/textview_border</item>
+    </style>
+</resources>
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textSize="22sp"-->
+<!--    android:gravity="center"-->
+<!--    android:padding="10dp"-->
+<!--    android:background="@drawable/textview_border"-->
+<!--    android:text="@string/locate_a_product"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    android:layout_marginStart="20dp"-->
+<!--    android:layout_marginEnd="20dp"-->
