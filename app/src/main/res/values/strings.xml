@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">BricoDepot</string>
     <string name="locate_a_product">Locate a product</string>
+    <string name="locate_a_section">locate a section</string>
+    <string name="welcome_to_your_local_store">Welcome to your local store</string>
+    <string name="locate_your_items_in_a_few_click">Locate your items in a few click</string>
+    <string name="Storemapp">storemapp</string>
+    <string name="your_product_xxxx_is_located_aisale_22_box_18">your product xxxx is located aisale 22 box 18</string>
+    <string name="as_you_enter_the_door_your_store_position_is_left_sides_from_the_end_and_when_you_reached_the_second_floor_you_got_the_second_box">As you enter the door your store position is left sides from the end and when you reached the second floor you got the second box</string>
 </resources>

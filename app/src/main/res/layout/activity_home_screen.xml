@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <Button
+    <ImageView
         android:id="@+id/ivBricoDepot"
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -17,15 +17,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="ravi loves tanvi"
         android:src="@drawable/iv21"/>
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       style="@style/BricoTextView"
-       android:text="@string/locate_a_product"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/ivBricoDepot"/>
+
+        <TextView
+            android:id="@+id/tvProductLocation"
+            style="@style/BricoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/barlow_thin"
+            android:text="@string/locate_a_product"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivBricoDepot" />
+        <TextView
+            android:id="@+id/tvLocateSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvProductLocation"
+            style="@style/BricoTextView"
+            android:text="@string/locate_a_section"/>
+        <TextView
+            android:id="@+id/tvSearchProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLocateSection"
+            style="@style/BricoTextView"
+            android:layout_marginTop="150dp"
+            android:text="@string/locate_a_section"/>
+        <TextView
+            android:id="@+id/tvSearchSections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSearchProducts"
+            style="@style/BricoTextView"
+            android:text="@string/locate_a_section"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
